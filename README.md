@@ -1,27 +1,35 @@
-# 1erParcialCinthiaOrona
+ #### 1) crear un proyecto en angular 
+	a) verificar si esta instalado en la maquina
+	b) instalarlo
+	c) crear un proyecto v-17 llamado 1er_Parcial_FrontEnd_Orona_Cinthia
+	d) generar 3 componentes (form, tabla, descripcion)
+	e) todos los componentes se deben ver en app.component.html
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.6.
+#### 2) En el component tabla hacer:
+	a) crear una tabla de 3 filas y 5 columnas
+	
+	Columnas: Nombre y Apellido | Edad | Nacimiento | Sexo | Fumador
+	Celdas: 	  Alcides Goia	  | 54  | 18/03/1970 | Masc | Si
+		  Alicia N. Robles       | 60  | 03/05/1964 | Fem | No
 
-## Development server
+#### 3) En el componente descripcion poner:
+	a) un titulo
+	b) 1 img local y un img externo
+	c) un parrafo c/ breve descripcion de la tematica
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+#### 4) En el componente form reliazar:
+	a) un formulario c/ boton submit y reset
+	b) inputs respetando el 'type' para cargar una persona de la tabla
+	c) todos los campos ser requeridos, radio buttons y select si es necesario
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+#### 5) Toda la vista del componente app debe verse como grilla (grid)
+	a) fondo de un mismo color
+	b) margen definido
+	c) Descripcion debe tener:
+		A) titulo centrado
+		B) algunas palabras deben estar en negrita y subrayado
+		C) las imagenes deben estar separadas entre si y mismo tamaño
+	d) Tabla debe tener:
+		A) borde solido de algun color
+		B) 'thead' fondo y las letras grandes y de un color distinto al resto
+		C) hacer un hover sobre las 'tr' con cambio de fondo y color letras
