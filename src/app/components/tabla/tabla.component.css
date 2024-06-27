@@ -1,0 +1,15 @@
+.row:hover {
+    background-color: #756f6f;
+    color: #f4f4f4;
+    cursor: pointer;
+}
+
+tr {
+    align-content: center;
+    text-align: center;
+}
+
+.contenedor-tabla {
+    margin: 1rem auto;
+    padding: 1rem;
+}

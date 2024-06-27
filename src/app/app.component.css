@@ -1,0 +1,6 @@
+.vista-grid {
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 10px;
+    background-color: #e6d397;
+}

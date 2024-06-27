@@ -1,0 +1,40 @@
+<section>
+    <div class="contenedor-form">
+        <form #formulario="ngForm" (ngSubmit)="verDatos(formulario)" (reset)="limpiarCampos(formulario)">
+            <div class="wrapper">
+                <label for="nombreCompleto">Nombre y Apellido</label>
+                <input type="text" name="nombreCompleto" id="nombreCompleto" maxlength="30" required ngModel>
+            </div>
+            <div class="wrapper">
+                <label for="edad">Edad</label>
+                <input type="number" name="edad" id="edad" maxlength="2" required ngModel>
+            </div>
+
+            <div class="wrapper">
+                <label for="nacimiento">Nacimiento</label>
+                <input type="date" name="nacimiento" id="nacimiento" required ngModel>
+            </div>
+
+            <div class="wrapper">
+                <label for="genero">Sexo</label>
+                <label for="femenino">Femenino
+                    <input type="radio" name="genero" id="femenino" value="femenino" required ngModel>
+                </label>
+                <label for="masculino">Masculino
+                    <input type="radio" name="genero" id="masculino" value="masculino" required ngModel>
+                </label>
+            </div>
+
+            <div class="wrapper">
+                <select name="fumador" id="fumador" required ngModel>
+                    <option value="">--Seleccione--</option>
+                    <option value="Si">Si</option>
+                    <option value="No">No</option>
+                </select>
+                <label for="genero">Fumador</label>
+            </div>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpiar">
+        </form>
+    </div>
+</section>
