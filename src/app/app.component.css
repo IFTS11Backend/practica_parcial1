@@ -1,6 +1,27 @@
 .vista-grid {
     display: grid;
-    grid-template-columns: 100%;
-    gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 10rem 25rem 30rem;
+    grid-template-areas: 
+        "tabla tabla"
+        "description description"
+        "form form";
+    ;
+    gap: 10px;    
     background-color: #e6d397;
+}
+
+#tabla{
+    grid-area: tabla;
+    border: 1px solid black;
+}
+
+#description{
+    grid-area: description;
+    border: 1px solid red;
+}
+
+#form{
+    grid-area: form;
+    border: 1px solid green;
 }

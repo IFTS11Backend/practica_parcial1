@@ -1,6 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
-section{
+/* section{
     display: flex;
     flex-direction: column;
     justify-content: center;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-width: auto;
+}
+
+@media(max-width: 500px) {
+    .vista-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 10rem 25rem 30rem;
+        grid-template-areas: 
+            "tabla"
+            "description"
+            "form";
+        gap: 10px;    
+        background-color: #e6d397;
+        min-width: 600px;
+        flex-shrink: unset;
+        flex-wrap: nowrap;
+    }
 }
